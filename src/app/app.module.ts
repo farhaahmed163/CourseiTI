@@ -7,7 +7,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { HomeComponent } from './components/home/home.component';
-import { ProductListComponent } from './components/Orders/product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +15,6 @@ import { ProductListComponent } from './components/Orders/product-list/product-l
     FooterComponent,
     SideBarComponent,
     HomeComponent,
-    ProductListComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
